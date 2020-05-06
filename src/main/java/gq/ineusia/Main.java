@@ -25,6 +25,9 @@ public class Main extends JavaPlugin implements Listener {
     public void onOpen(InventoryOpenEvent event) {
         if (event.getInventory().getHolder() instanceof ChestedHorse) {
             ChestedHorse entity = ((ChestedHorse) event.getInventory().getHolder());
+            if (!entity.isCarryingChest()) {
+                return;
+            }
 
             entity.remove();
 

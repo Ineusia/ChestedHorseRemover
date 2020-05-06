@@ -6,7 +6,7 @@
 
     <groupId>gq.ineusia</groupId>
     <artifactId>ChestedHorseRemover</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
 
     <build>
         <plugins>
