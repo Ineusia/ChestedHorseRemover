@@ -1,0 +1,6 @@
+main: gq.ineusia.Main
+name: ChestedHorseRemover
+version: 1.0
+api-version: 1.13
+author: Ineusia
+description: No more duping.
